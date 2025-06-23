@@ -1,12 +1,39 @@
-# React + Vite
+# 🎮 Your Lane
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Your Lane** é uma aplicação web feita com **React + Vite** que permite aos jogadores de **League of Legends** escolher e registrar qual é sua lane principal (top, jungle, mid, adc ou suporte).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Objetivo
 
-## Expanding the ESLint configuration
+Criar uma aplicação prática e simples para que jogadores possam:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Escolher sua lane favorita.
+- Compartilhar com amigos ou equipes.
+- Usar como referência em perfis, recrutamentos ou redes sociais.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- HTML5 + CSS3
+- JavaScript (ES6+)
+- Git e GitHub
+
+---
+
+## 📸 Preview
+
+> *(Adicione uma imagem ou GIF do projeto rodando aqui quando estiver pronto)*  
+> Você pode usar [Licecap](https://www.cockos.com/licecap/) para gravar um gif simples.
+
+---
+
+## 📦 Instalação e uso
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/joaoviccardoso/Your-Lane.git
