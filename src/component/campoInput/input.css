@@ -1,0 +1,10 @@
+.campo-input{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+}
+
+.campo-input input{
+    height: 25px;
+    border-radius: 8px;
+}

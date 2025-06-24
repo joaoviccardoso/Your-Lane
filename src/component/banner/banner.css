@@ -1,14 +1,15 @@
 .banner {
-    position: fixed; /* fixa no lugar */
+    position: absolute; /* fixa no lugar */
     top: 0; /* no topo da tela */
     left: 0;
     width: 100%; /* ocupa a largura total */
 
     display: flex;
     justify-content: center;
+    background: #2d2d2d;
 }
 
 .banner img{
-    width: 80%;
-    height: 550px;
+    width: auto;
+    height: 500px;
 }
