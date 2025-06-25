@@ -1,10 +1,10 @@
 import './input.css'
 
-const Input = () => {
+const Input = (props) => {
     return (
         <div className='campo-input'>
-            <label>teste</label>
-            <input></input>
+            <label>{props.label}</label>
+            <input placeholder={props.placeholder}></input>
         </div>
     )
 }
