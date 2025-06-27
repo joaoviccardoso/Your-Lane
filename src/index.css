@@ -1,8 +1,25 @@
-body {
+html, body, #root {
+  height: 100vh;
   margin: 0;
+  padding: 0;
+}
+
+.container-geral{
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  background: #ccc;
-  margin-top: 500px;
+  justify-content: space-between;
+  min-height: 100vh
+}
+
+/* O conteúdo ocupa o espaço disponível */
+.conteudo {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Rodapé */
+container-geral footer {
+  color: white;
+  text-align: center;
+  padding: 15px;
 }
