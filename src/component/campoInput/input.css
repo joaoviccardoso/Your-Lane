@@ -1,7 +1,7 @@
 .campo-input{
     display: flex;
     flex-direction: column;
-    margin: 2rem;
+    margin: 1.5rem;
 }
 
 .campo-input label{
@@ -10,7 +10,7 @@
 }
 
 .campo-input input{
-    width: 300px;
+    width: 350px;
     height: 25px;
     border-radius: 8px;
     border: none;

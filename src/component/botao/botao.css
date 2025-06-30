@@ -1,0 +1,16 @@
+.container-botao{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-botao button{   
+    border: none;
+    border-radius: 8px;
+    color: #f2f2f2;
+    background-color: rgb(18, 18, 241);
+    font-family: "Lexend Exa", sans-serif;
+    font-size: 1rem;
+    padding: .8rem 1.5rem;
+    margin-top: 1rem;
+}

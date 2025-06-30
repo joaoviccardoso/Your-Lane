@@ -1,6 +1,7 @@
 import './formulario.css'
 import Input from '../campoInput'
 import ListaSuspensa from '../listaSuspensa'
+import Botao from '../botao'
 
 const Formulario = (props) => {
     return (
@@ -23,6 +24,7 @@ const Formulario = (props) => {
                     label="Escolha sua Lane"
                     lanes={props.lanes}
                 />
+                <Botao>Salvar</Botao>
             </form>
         </section>
     )
