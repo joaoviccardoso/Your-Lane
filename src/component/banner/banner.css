@@ -1,12 +1,30 @@
 .banner {
     width: 100%; /* ocupa a largura total */
-
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     background: #2d2d2d;
 }
 
 .banner img{
     width: auto;
     height: 350px;
+}
+
+.banner div{
+    border: 2px solid #fff;
+    border-radius: 16px;
+    padding: 1rem;
+}
+
+.banner div h1{
+    margin: 0;
+    color: #f2f2f2;
+    font-family: "Lexend Exa", sans-serif;
+}
+
+.banner div p{
+    margin: 0;
+    color: #f2f2f2;
+    font-family: "Lexend Exa", sans-serif;
 }

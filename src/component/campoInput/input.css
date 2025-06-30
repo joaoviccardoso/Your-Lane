@@ -1,10 +1,22 @@
 .campo-input{
     display: flex;
     flex-direction: column;
-    margin: 3rem;
+    margin: 2rem;
+}
+
+.campo-input label{
+    color: #f2f2f2;
+    font-family: "Lexend Exa", sans-serif;
 }
 
 .campo-input input{
+    width: 300px;
     height: 25px;
     border-radius: 8px;
+    border: none;
+}
+
+.campo-input input::placeholder{
+    color: #c2c2c2;
+    font-family: "Lexend Exa", sans-serif;
 }
