@@ -1,39 +1,43 @@
-# 🎮 Your Lane
+# 🎯 ValorantConnect
 
-**Your Lane** é uma aplicação web feita com **React + Vite** que permite aos jogadores de **League of Legends** escolher e registrar qual é sua lane principal (top, jungle, mid, adc ou suporte).
-
----
-
-## 🚀 Objetivo
-
-Criar uma aplicação prática e simples para que jogadores possam:
-
-- Escolher sua lane favorita.
-- Compartilhar com amigos ou equipes.
-- Usar como referência em perfis, recrutamentos ou redes sociais.
+**ValorantConnect** é uma aplicação web feita em React que permite aos jogadores do Valorant se conectarem com outros usuários que compartilham o mesmo agente favorito, modo de jogo ou horários disponíveis. A ideia surgiu da necessidade real de encontrar parceiros para jogar de forma mais divertida e cooperativa.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🕹️ Funcionalidades
 
-- [React](https://reactjs.org/)
-- [Vite](https://vitejs.dev/)
-- HTML5 + CSS3
-- JavaScript (ES6+)
-- Git e GitHub
+- ✅ Cadastro de jogador com ID da Riot
+- ✅ Escolha de agente favorito
+- ✅ Indicação de modo de jogo e disponibilidade
+- ✅ Exibição de uma lista de jogadores com informações úteis
+- ✅ Filtros por agente, modo e horário
+- ✅ Interface inspirada na estética do Valorant
 
----
-
-## 📸 Preview
-
-> *(Adicione uma imagem ou GIF do projeto rodando aqui quando estiver pronto)*  
-> Você pode usar [Licecap](https://www.cockos.com/licecap/) para gravar um gif simples.
+*(Mais funcionalidades serão adicionadas em breve)*
 
 ---
 
-## 📦 Instalação e uso
+## 🧪 Tecnologias Utilizadas
 
-1. Clone o repositório:
+- **React.js** – Biblioteca principal da interface
+- **JavaScript (ES6+)**
+- **HTML + CSS**
+- **Figma** – Para design e prototipação
+- *(Em breve: Node.js + Express + MongoDB para o backend)*
+
+---
+
+## 💻 Como Rodar o Projeto Localmente
 
 ```bash
-git clone https://github.com/joaoviccardoso/Your-Lane.git
+# Clone o repositório
+git clone https://github.com/seu-usuario/valorantconnect.git
+
+# Acesse a pasta
+cd valorantconnect
+
+# Instale as dependências
+npm install
+
+# Inicie o projeto
+npm start
